@@ -1,0 +1,36 @@
+/backend/node_modules
+/backend/public/hot
+/backend/public/storage
+/backend/storage/*.key
+/backend/vendor
+/backend/.env
+/backend/.env.backup
+/backend/.phpunit.result.cache
+/backend/Homestead.json
+/backend/Homestead.yaml
+/backend/npm-debug.log
+/backend/yarn-error.log
+
+# Git ignore for frontend
+/frontend/.DS_Store
+/frontend/node_modules
+/frontend/dist
+
+# local env files
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Log files
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+
+# Editor directories and files
+/frontend/.idea
+/frontend/.vscode
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.sw?
