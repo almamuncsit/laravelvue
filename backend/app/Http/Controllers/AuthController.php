@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 
 class AuthController extends Controller
 {
@@ -67,6 +68,7 @@ class AuthController extends Controller
      */
     public function refresh()
     {
+        Log::debug("refresh");
         return $this->respondWithToken(auth()->refresh());
     }
 
